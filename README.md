@@ -13,10 +13,27 @@ This repository contains three comprehensive lab guides designed to accompany th
 
 ---
 
+## 📋 Quick Access
+
+### **[Command Reference - All Videos](command-reference.md)** 🔥
+**New!** Complete command-line reference for all 9 video demonstrations. Every command shown in the course with explanations.
+
+**Perfect for:**
+- Following along during videos
+- Quick copy-paste reference  
+- Reviewing after watching
+- Understanding command options
+
+**Includes:** 50+ commands organized by video, cleanup procedures, common patterns, and troubleshooting tips.
+
+**[→ View Command Reference](command-reference.md)**
+
+---
+
 ## 🎯 Learning Path
 
 ### **[Module 1: Configure Topics for High Availability](module-1-guide.md)**
-⏱️ **60 minutes** | 📊 **Difficulty:** Beginner
+📊 **Difficulty:** Beginner
 
 Learn to configure Kafka topics with appropriate replication factors, partition counts, and durability settings to ensure high availability and fault tolerance.
 
@@ -35,7 +52,7 @@ Learn to configure Kafka topics with appropriate replication factors, partition 
 ---
 
 ### **[Module 2: Monitor Performance and Identify Bottlenecks](module-2-guide.md)**
-⏱️ **60 minutes** | 📊 **Difficulty:** Intermediate
+📊 **Difficulty:** Intermediate
 
 Master consumer lag monitoring, consumer group sizing, and broker health metrics to identify and diagnose performance bottlenecks before they impact production.
 
@@ -55,7 +72,7 @@ Master consumer lag monitoring, consumer group sizing, and broker health metrics
 ---
 
 ### **[Module 3: Optimize Producer and Consumer Performance](module-3-guide.md)**
-⏱️ **90 minutes** | 📊 **Difficulty:** Advanced
+📊 **Difficulty:** Advanced
 
 Optimize Kafka performance through producer batching, compression, consumer fetch tuning, and broker-side configuration to maximize throughput while meeting latency SLAs.
 
@@ -118,11 +135,21 @@ docker-compose ps
 
 ### Study Approach
 
-1. **Watch the video** for the module (if available)
-2. **Read the "Key Concepts"** section to understand theory
-3. **Work through each lab exercise** hands-on
-4. **Complete the quiz** to test your understanding
-5. **Move to the next module**
+**Option 1: Video-First Learning**
+1. **Watch the video** for the module
+2. **Open [Command Reference](command-reference.md)** to see exact commands
+3. **Follow along** by copying commands to your terminal
+4. **Read the module lab guide** for deeper exercises
+5. **Complete the quiz** to test your understanding
+
+**Option 2: Lab-First Learning**
+1. **Read the "Key Concepts"** section in the module guide
+2. **Work through each lab exercise** hands-on
+3. **Watch the video** to see instructor demonstrations
+4. **Use [Command Reference](command-reference.md)** to review specific commands
+5. **Complete the quiz**
+
+**Pro Tip:** Keep the [Command Reference](command-reference.md) open in a second window/tab while watching videos for easy copy-paste!
 
 ### Lab Format
 
@@ -249,9 +276,8 @@ Found an issue or have a suggestion?
 
 These lab guides accompany the **"Optimize Kafka for Speed & Availability"** course.
 
-- **Duration:** 60 minutes (videos) + 3 hours (hands-on labs)
 - **Level:** Intermediate
-- **Instructor:** [Your Name]
+- **Instructor:** [Ritesh Vajariya]
 - **Prerequisites:** Basic understanding of distributed systems and command-line usage
 
 ---
@@ -309,4 +335,4 @@ After completing these labs:
 
 **Happy Learning! 🎉**
 
-*Last Updated: November 2025*
+*Last Updated: November 2024*
